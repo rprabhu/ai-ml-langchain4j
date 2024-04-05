@@ -18,7 +18,7 @@ class OllamaMistralExample {
 
     private static final String MODEL = "mistral";
     private static final String BASE_URL = "http://localhost:11434";
-    private static Duration timeout = Duration.ofSeconds(120);
+    private static final Duration timeout = Duration.ofSeconds(120);
 
     public static void main(String[] args) {
         Console console = System.console();
